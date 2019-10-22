@@ -1,0 +1,267 @@
+*{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    list-style: none;
+}
+ul, li {
+    list-style-type: none;
+}
+nav{
+    display: block;
+    background-color: #9c27b0;
+    text-align: center;
+}
+.nav_logo{
+    width: 55%;
+    height: 80%;
+    align-items: center;
+    padding: 10px;
+}
+.nav_lista{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+}
+/* .container{
+    width: 90%;
+    margin: 0 auto;
+} */
+/* .descricao{
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.descricao_foto{
+    width: 80%;
+} */
+.titulos{
+    text-transform: uppercase;
+    color: #8633cb;
+}
+.subtitulos{
+    margin: 10px 3px 0 0;
+    color: #7E459B;
+    font-weight: 100;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.descricao_foto{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+.descricao_foto-img{
+    width: 60%;
+    border-radius: 60%;
+    border: 2px solid black;
+}
+.descricao_texto{
+    margin: 30px 0 auto;
+}
+.cursos_conteudo{
+    width: 70%;
+    background-color: #C199CA;
+    border-radius: 10%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cursos_conteudo-img{
+    width: 50%;
+}
+.footer{
+    display:  block;
+    margin-bottom: 40px;
+}
+.footer_img{
+    width:10%;
+}
+.footer_principal{
+    display: flex;
+    height: 40px;
+    margin-bottom: 30px;
+}
+.footer_principal-img{
+    width: 30%;
+}
+.footer_principal-title{
+    font-size: 2rem;
+    color: #7E459B;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer_secundario{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #7E459B;
+    height: 20%;
+    color: aliceblue;
+}
+/* minimo(min)é usado de mobile para web, quando é o contrário deve se usar maximo (max) */
+@media (min-width:900px){
+    nav{
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .descricao{
+        display: flex;
+    }
+    .cursos{
+        display: flex;
+    }
+    .btn{
+        background-color: #7E459B;
+        border-radius: 10px;
+        padding: 10px;
+        border: none;
+    }
+    .cursos_conteudo{
+        margin-left: 10px;
+    }
+    .footer_principal{
+        display: none;
+    }
+    .footer_secundario{
+        display: flex;
+    }
+}
+@media (max-width: 768px) and (min-width: 600px) {
+nav{
+    display: flex;
+    background-color: #CDABD3;
+
+}
+.red{
+    
+    background-color: rgb(243, 105, 105);
+}
+
+.img:cursos_conteudo-img{
+    background-image: url ("imgmobile.jpg");
+}
+.cursos_conteudo{
+    width: 400px;
+    height: 237px;
+    padding: 5px;
+}
+.cursos_conteudo-img{
+    width: 120px;
+}
+
+.descricao_foto-img{
+    margin: 10px;
+    width: 264px;
+    border: 10px solid #7E459B;
+    border-radius: 300px;
+    margin-left: 5px;
+}
+.descricao{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_principal{
+    display: none;
+}
+.footer_secundario{
+    display: flex;
+}
+.Assinatura{
+    display: none;
+}
+.footer_secundario{
+    display: block;
+}
+.btn{
+    width: 85px;
+height: 28.76px;
+left: 341px;
+top: 717px;
+
+background: #7E459B;
+border-radius: 30px;
+}
+}
+ 
+/* body{
+        font-family: 'Roboto', sans-serif;
+    }
+    nav{
+        background-color: #CDABD3;
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .descricao{
+        display: flex;
+    }
+    .descricao_foto-img{
+        margin: 10px;
+        width: 264px;
+        border: 10px solid #7E459B;
+        border-radius: 300px;
+        margin-left: 5px;
+    }
+  .titulos{
+    margin: 0%;
+    width: 267px;
+    height: 71px;
+    
+  }
+ .subtitulos{
+    
+    width: 550px;
+    height: 390px;
+    font-size: 20px;
+    }
+    .cursos h4{
+        margin: 0 auto;
+    }
+    .cursos h1{
+        height: 20px;
+        margin: 0 auto;
+    }
+    .cursos_conteudo{
+        width: 496px;
+        height: 237px;
+        
+        background: rgba(193, 153, 202, 0.82);
+        border-radius: 30px;
+    }
+    .cursos_conteudo-img {
+        width: 28%;
+        margin: 0;
+    }
+} */
+/* 
+
+min width: 600px
+max width: 768px
+
+
+1- PASSO 
+Olhar no figma o layoutl 'ipad'
+
+2- Passo 
+Entrar no seu index, apertar f12 e clicar no iconezinho de mobile (  aquele celularazinho)
+www.stilingue.com.br
+3- Passo colocar a media querie, com o valor do tablet
+
+4- Passo
+Começar as alterações */
