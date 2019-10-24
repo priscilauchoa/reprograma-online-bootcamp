@@ -40,13 +40,17 @@ body{
     margin-top: 200px;
     font-size: 1.5rem;
 }
+
 .banner_title-color{
     color: #5BCBB2;
 }
+
 .seta{
     padding: 50px;
 }
+
 .seta_img{
+    display: none;
     width: 2%;
 }
 
@@ -60,9 +64,11 @@ body{
     text-align: center;
     padding: 50px;
 }
+
 .projetos_site{
     display: flex;
 }
+
 .sobreMim_description{
 margin: 0 auto;
     width: 400px;
@@ -71,18 +77,12 @@ margin: 0 auto;
     margin-top: 20px;
 }
 
-
 .site_img{
     width:90%;
 }
-.site_title{
-    color: #B3B2B2;
-    width: 90%;
-    margin-top: 20px;
-}
 
 .site_title{
-    width: 100%;
+    width: 90%;
     color: black;
     font-size: 16pt;
     font-weight: lighter;
@@ -92,6 +92,7 @@ margin: 0 auto;
     padding: 20px;
     text-align: center;
 }
+
 .btn_link{
     font-weight: bold;
     text-align: center;
@@ -112,10 +113,12 @@ margin: 0 auto;
     box-sizing: border-box;
     margin-top: 20px;
     }
+
 .sobreMim{
     background-color: black;
     text-align: center;
 }
+
 .sobreMim_img{
     background-color: #ddd;
     border-radius: 100%;
@@ -125,16 +128,20 @@ margin: 0 auto;
 }
 
 .contato{
-    height: 50vh;
+    height: 100%;
 }
+
 .contato_icons{
     display: flex;
     height: 10vh;
+    padding-bottom: 80px;
     justify-content: space-around;
 }
+
 .contato_img{
     width: 10%;    
 }
+
 .contato_img-icon{
     width: 100%;
 }
@@ -151,10 +158,9 @@ h5{
     font-weight: normal;
 }
 
-
 /* ---------------------------------------------- */
 /* Mobile-Priscila FLores {reprograma} - Semana 01*/
-@media (max-width: 640px) and (min-width: 360px) {
+@media (max-width: 840px) and (min-width: 360px) {
       
     ul {
         display: flex;
@@ -169,11 +175,13 @@ h5{
     ul > li{
         margin: 3px 7px;
     }
+
     .banner{
         width: 65%;
         height: 100%;
         margin: 0 auto;
     }
+
     h4{
         font-weight: lighter;
     }
@@ -182,6 +190,7 @@ h5{
         -webkit-text-stroke-width: 1px; /* largura da borda */
         -webkit-text-stroke-color:white;
     }
+
     .banner_title{
         width: 160px;
         height: 153px;
@@ -190,11 +199,13 @@ h5{
         font-size: 40px;
         padding-left: 31px;
     }
+
     .span{
         width: 20px;
         height: 20px;;
         background-color: black;
     }
+
     h4{
         font-family: Roboto;
         font-style: normal;
@@ -207,6 +218,7 @@ h5{
     .projetos_title{
         padding: 30px 0;
     }
+
     .projetos_site{
         display: block;
     }
@@ -218,7 +230,10 @@ h5{
     .seta {
         padding: 7px 40px 56px 60px;
     }
+
     .seta_img{
+        display: block;
+        margin: 0 auto;
         padding-bottom: 20px;
         width: 40px;
     }
@@ -226,6 +241,7 @@ h5{
     .sobreMim{
         height: 595px;
     }
+
     .sobreMim_img {
         background-color: #ddd;
         border-radius: 100%;
@@ -250,9 +266,10 @@ h5{
     .btn2{
         padding: 20px 0 120px 0;
     }
-.sobreMim_description{
+    .sobreMim_description{
         width: 250px;
     }
+
     .contato_title{
         font-family: Roboto;
         font-size: 30px;
@@ -268,12 +285,14 @@ h5{
         width: 28%;
         margin: 0 auto;
         height: 29%;
+        padding-bottom: 0px;
+    }
+
+    .contato_img-icon{
+        margin-bottom: 20px;
     }
 
     h5{
         font-size: 10px;
-    }
-    footer{
-        margin-top: 30px;
     }
 }
