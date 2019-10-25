@@ -160,7 +160,7 @@ h5{
 
 /* ---------------------------------------------- */
 /* Mobile-Priscila FLores {reprograma} - Semana 01*/
-@media (max-width: 840px) and (min-width: 360px) {
+@media (max-width: 690px) and (min-width: 360px) {
       
     ul {
         display: flex;
