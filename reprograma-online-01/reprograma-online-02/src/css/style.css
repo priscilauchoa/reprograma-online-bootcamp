@@ -1,0 +1,61 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: darkviolet;
+    
+}
+.imagem-carrossel {
+    object-fit: cover;
+    height: 400px;
+    
+}
+
+.fonte-texto {
+    font-family: flood-std,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:darkred;
+}
+
+.fonte-titulo-card {
+    font-family: flood-std,sans-serif;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.fonte-texto-card-footer {
+    font-family: flood-std,sans-serif;
+    font-size: 15px;
+}
+.imagem-card {
+    /* object fit  a imagem é setada de maneira nao distorcida, e vai cobrir todo o espaco com cover */
+    object-fit: cover;
+    height: 286px;
+}
+
+.borda-card {
+    border-color: darkblue;
+}
+
+.logo {
+    height: 75px;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(rgb(75, 245, 214),rgb(161, 89, 238),rgb(159, 78, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+   
+    
+}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light{
+    background-color: rgb(200, 181, 221);
+}
+
+.nav-link{
+    color: rgb(120, 4, 170);
+}
