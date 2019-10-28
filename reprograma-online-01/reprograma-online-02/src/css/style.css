@@ -6,7 +6,6 @@ body{
 .imagem-carrossel {
     object-fit: cover;
     height: 400px;
-    
 }
 
 .fonte-texto {
@@ -37,19 +36,18 @@ body{
 }
 
 .logo {
-    height: 75px;
+    height: 52px;
+    margin-bottom: 11px;
 }
 
 .navbar-light .navbar-brand {
     font-family: 'Montserrat', sans-serif;
-    font-size: 72px;
+    font-weight: lighter;
+    font-size: 60px;
     text-transform: uppercase;
     background: -webkit-linear-gradient(rgb(75, 245, 214),rgb(161, 89, 238),rgb(159, 78, 247));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-   
-    
 }
 
 .navbar .navbar-expand-lg .navbar-light .bg-light{
