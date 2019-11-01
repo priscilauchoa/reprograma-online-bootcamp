@@ -1,14 +1,30 @@
-body{
+body {background-color: rgba(218, 198, 236, 0.349);
     font-family: 'Montserrat', sans-serif;
 font-family: 'Quicksand', sans-serif;
 }
-.logo{
+.logo {
     width: 45px;
 }
 
-.logo_h1{
+.logo_h1 {
     align-content: center;
     color: rgb(67, 140, 247);
-   
+}
 
+.background {
+    background-color: transparent;
+}
+
+
+.imagem-carrossel {
+    object-fit: cover;
+    height: 1000px;
+}
+
+.nav-link{
+    font-size: 20pt;
+}
+
+.container{
+    width: 90%;
 }
