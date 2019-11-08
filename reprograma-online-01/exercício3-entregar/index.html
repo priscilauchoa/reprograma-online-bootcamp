@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Olá, mundo!</title>
 </head>
@@ -16,216 +17,203 @@
 <body>
 
   <nav class="d-flex justify-content-between background">
-    <h1 class="logo_h1"> <img class="logo" src="./solidarity.png" alt="" srcset="">Doar.se</h1>
+    <div class="container container-padrao d-flex justify-content-between">
+      <h1 class="logo_h1"> <img class="logo" style="width: 53px;" src="./charity.png" alt="" srcset="">Doar.se</h1>
 
-    <ul class="nav justify-content-end">
+      <ul class="nav justify-content-end">
 
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Ativo</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Desativado</a>
-      </li>
-    </ul>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#main">Ajude</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contatos</a>
+        </li>
+      </ul>
 
+    </div>
   </nav>
 
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="container carouselExampleIndicators" class="carousel slide container-padrao" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100 imagem-carrossel" src="./banner1.jpg" alt="Primeiro Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Ajude</h5>
-          <p>Doe mantimentos</p>
-        </div>
+        <img class="d-block w-100 imagem-carrossel" src="./40996594505_9c1dab5d75_b.jpg" alt="Primeiro Slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 imagem-carrossel" src="./banner4.jpg" alt="Segundo Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Ajude</h5>
-          <p>Doe conhecimento</p>
-        </div>
+        <img class="d-block w-100 imagem-carrossel" src="./people-3935983_960_720.jpg" Segundo Slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 imagem-carrossel" src="./banner3.jpg" alt="Terceiro Slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Ajude</h5>
-          <p>Doe tempo</p>
-        </div>
+        <img class="d-block w-100 imagem-carrossel" src="./refugees-welcome-2337656_960_720.jpg" alt="Terceiro Slide">
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Anterior</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Próximo</span>
     </a>
   </div>
-  <!--     
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"></div>
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100 imagem-carrossel" src="./banner1.jpg" alt="Primeiro Slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 imagem-carrossel" src="./banner2.jpeg" alt="Segundo Slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 imagem-carrossel" src="./banner4.jpg" alt="Terceiro Slide">
+
+  <main id="main">
+    <div class="text-center">
+      <div class="container card-body ">
+        <h1>Faça sua parte
+        </h1>
+        <p>Ajude aos Refugiados e necessitados</p>
+      </div>
+    </div>
+
+    <section class="container d-flex">
+      <div class="row justify-content-around ml-3 margem">
+        <div class="card borda-card" style="width: 18rem;">
+          <img class="card-img-top imagem-card" src="./banner2.jpeg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Doe mantimentos</h5>
+            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+              conteúdo.</p>
+            <a href="#" class="btn btn-primary btn-cor">Visitar</a>
+          </div>
+        </div>
+
+
+
+        <div class="row justify-content-around ml-3">
+          <div class="card borda-card" style="width: 18rem;">
+            <img class="card-img-top imagem-card" src="./banner3.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Doe mantimentos</h5>
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                conteúdo.</p>
+              <a href="#" class="btn btn-primary btn-cor">Visitar</a>
+            </div>
+          </div>
+
+
+          <div class="row justify-content-around ml-3">
+            <div class="card borda-card" style="width: 18rem;">
+              <img class="card-img-top imagem-card" src="./banner4.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Doe tempo</h5>
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
+                  conteúdo.</p>
+                <a href="#" class="btn btn-primary btn-cor">Visitar</a>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-          </div> -->
-  <div class="container-fluid">
-    <main>
-      <h1 class="h2 container-fluid text-center mt-5">Refugiados</h1>
-      <h2 class="h3 container-fluid text-center">Ajude-nos</h2>
-
-
-      <div class="d-flex justify-content-around m-5">
-        <div class="card border-primary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Doe Tempo</div>
-          <div class="card-body text-primary">
-            <h5 class="card-title">Título de Card Primary</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
           </div>
-        </div>
+    </section>
+  </main>
 
-        <div class="card border-primary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Doe Roupas</div>
-          <div class="card-body text-primary">
-            <h5 class="card-title">Título de Card Primary</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
-          </div>
-        </div>
-
-        <div class="card border-primary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Doe Mantimentos</div>
-          <div class="card-body text-primary">
-            <h5 class="card-title">Título de Card Primary</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
-          </div>
-        </div>
-
-        <div class="card border-primary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Doe Conhecimento</div>
-          <div class="card-body text-primary">
-            <h5 class="card-title">Título de Card Primary</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo
-              do card.</p>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-      <!-- Form -->
-
-      <div class="container">
-        <h1>Muitos novos refugiados </h1>
-        <p>
-          A Síria foi o país que mais gerou refugiados no mundo. Cerca de 824.400 pessoas foram forçadas a fugir dos
-          conflitos que assolam o país. As crises na África subsaariana também levaram a novos deslocamentos. Quase
-          737.400 pessoas deixaram o Sudão do Sul para escapar de uma crise humanitária que cresceu consideravelmente em
-          2016. Burundi, Iraque, Nigéria e Eritréia também geraram grande número de refugiados.
-
+  <article id="sobre">
+    <div class="card-body container-padrao text-center mt-5">
+      <h1>Quem somos
+      </h1>
+      <h2>Doar.se</h2>
+    </div>
+    </div>
+    <div class="card container-padrao">
+      <div class="card-body">
+        <p class=" text-wrap">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo neque est laboriosam ad, odio libero nulla.
+          Nobis e Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illum quae laboriosam dolore eaque,
+          voluptatum reprehenderit est suscipit sapiente placeat! Fuga magnam quia voluptatibus recusandae quasi eum
+          impedit, debitis fugiat. nim iste sed a possimus repudiandae repellat vero recusandae, dolorem officiis,
+          veritatis iusto! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, fuga harum sit, eos non
+          nihil voluptate a rem cptio voluptatem ipsum sequi porro neque corrupti quibusdam?
         </p>
-        <h1> De onde vem os refugiados?
+      </div>
+    </div>
+  </article>
+
+  <section id="contato" class="container-padrao p-3 mt-3">
+    <div class="text-center">
+      <div class="card-body ">
+        <h1>Contate-nos
         </h1>
-        <p> Os 5,5 milhões de sírios que foram forçados a fugir constituem o maior grupo de refugiados do mundo. Os
-          refugiados do Afeganistão aparecem em segundo lugar se considerado o país de origem.</p>
-        </p>
-
-
-
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1">@</span>
-          </div>
-          <input type="text" class="form-control" placeholder="Usuário" aria-label="Usuário"
-            aria-describedby="basic-addon1">
-        </div>
-
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Recipiente para nickname"
-            aria-label="Recipiente para nickname" aria-describedby="basic-addon2">
-          <div class="input-group-append">
-            <span class="input-group-text" id="basic-addon2">@exemplo.com</span>
-          </div>
-        </div>
-
-        <label for="basic-url">Sua tão honrada URL</label>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon3">https://exemplo.com.br/users/</span>
-          </div>
-          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-        </div>
-
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text">R$</span>
-          </div>
-          <input type="text" class="form-control" aria-label="Quantia">
-          <div class="input-group-append">
-            <span class="input-group-text">.00</span>
-          </div>
-        </div>
-
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Addon com textarea</span>
-          </div>
-          <textarea class="form-control" aria-label="Com textarea"></textarea>
-        </div>
-
+        <p>Envie uma mensagem por aqui</p>
+      </div>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Endereço de email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Assunto</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Selecione uma opção</option>
+          <option>Doações</option>
+          <option>Ajuda de outra maneira</option>
+          <option>Sobreo projeto</option>
+          <option>Patrocínio</option>
+          <option>Outros assuntos</option>
+        </select>
       </div>
 
-    </main>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Digite aqui sua mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
 
-  </div>
-    <footer class="container-fluid pt-5">
-        <!-- <div class="row justify-content-around m-1"> -->
-        <div>
-            <p class="text-center fonte-texto-card-footer">Minhas redes sociais</p>
-        </div>
-        <div class="row justify-content-center m-1">
-            <div><i class="m-5 fab fa-facebook-square"></i></div>
-            <div><i class="m-5 fab fa-twitter"></i> </div>
-            <div><i class="m-5 fab fa-instagram"></i></div>
-        </div>
-        
-        <div class="text-center fonte-texto-footer pt-1">
-            <small>Copyright © Pri Theeodoro <time datetime="2019">2019</time></small>
-        </div>
-    </footer>
+      <!-- Botão para acionar modal -->
+      <button type="button" class="btn btn-primary btn-cor " data-toggle="modal" data-target="#modalExemplo">
+        Enviar
+      </button>
 
-  
+      <!-- Modal -->
+      <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Obrigada por sua mensagem</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Entraremos em contato em breve
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </section>
+  <footer class="d-flex justify-content-around background">
+    <div class="container-padrao d-flex justify-content-between">
+      <!-- <div class="row justify-content-around m-1"> -->
+      <div class="d-flex justify-content-between">
+        <div class="row justify-content-center m-0">
+          <p class="text-center fonte-texto-card-footer m-2 pt-1 ">Nossas redes sociais</p>
+          <div><i class="fab fa-facebook-square mt-3 mb-3 mr-2"></i></div>
+          <div><i class="fab mt-3 mb-3 mr-2 fa-twitter"></i> </div>
+          <div><i class="fab mt-3 mb-3 mr-2 fa-instagram"></i></div>
+        </div>
+      </div>
+
+      <div class="text-center fonte-texto-footer m-2">
+        <small>Copyright © Priscila Flores<time datetime="2019">2019</time></small>
+      </div>
+    </div>
+  </footer>
+
+
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
